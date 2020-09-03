@@ -1,6 +1,6 @@
 package oppsProgram;
 
-public class Manager extends Employee {
+public class Manager extends Worker {
 
 	
 	void displayman()
