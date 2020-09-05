@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TraineeActivity {
 	
-	
+
 	public static void main(String[] args) {
 		
 		Long id;
@@ -21,6 +21,7 @@ public class TraineeActivity {
 		System.out.println("Enter The Name :");
 		name=sc.next();
 		
+		
 		System.out.println("Enter The Address :");
 		address=sc.next();
 		
@@ -29,7 +30,6 @@ public class TraineeActivity {
 		
 		new Employees(id, name, address, phoneno);
 	
-		
 		Managers mg=new Managers(id, name, address, phoneno, salary);
 		mg.calculateTransportAllownce();
 	

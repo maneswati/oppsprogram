@@ -19,7 +19,7 @@ public class Trainee extends Managers {
 	public void calculateTransportAllownce()
 	{
 		
-		Double ta = 10/100*basicSal;
+		Double ta =basicSal+ (basicSal/100*20);
 		
 		System.out.println("The Transport Allownce of Trainee : "+ta);
 

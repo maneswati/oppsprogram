@@ -18,7 +18,9 @@ public class Managers extends Employees{
 	}
 	public void calculateTransportAllownce()
 	{
-		
+		super.calculateSalary();
+		super.calculateTransportAllownce();
+
 		Double transportAllowance = 15*basicSal/100.;
 
 		
